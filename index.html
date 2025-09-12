@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CICR-PORTAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <div class="login-container" id="login-form">
+        <div class="logo">
+            <i class="fas fa-user-circle"></i>
+            <span>CICR-PORTAL</span>
+        </div>
+        <h2>Login</h2>
+        <p class="subtitle">Enter your credentials to access your account.</p>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="name@example.com" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="••••••••" required>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <p class="or-divider">OR</p>
+        <button class="google-btn">
+            <i class="fab fa-google"></i>
+            Continue with Google
+        </button>
+        <p class="signup-link">Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
